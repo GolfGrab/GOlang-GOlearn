@@ -1,8 +1,8 @@
-package main02
+package main
 
 import "fmt"
 
-func main02() {
+func main() {
 	var gopher string
 	gopher = "Gopher"
 	fmt.Printf("Hello, %s.\n", gopher)

@@ -1,8 +1,8 @@
-package main03
+package main
 
 import "fmt"
 
-func main03() {
+func main() {
 	fmt.Print("input a fruit name: ")
 	var fruit string
 	fmt.Scanln(&fruit)

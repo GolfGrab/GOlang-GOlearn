@@ -1,8 +1,8 @@
-package main04
+package main
 
 import "fmt"
 
-func main04() {
+func main() {
 	fmt.Print("input score: ")
 	var score int
 	fmt.Scanln(&score)
