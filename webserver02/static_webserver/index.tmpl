@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<title>Template</title>
+{{.}}
+<p>Hello , {{.Name}}</p>
+{{.List}}
+<h3>List {{len .List}} item{{ if gt (len .List) 1}}s{{end}}</h3>
+{{if .List}}
+<ul>
+    {{range $i,$v :=.List}}
+    <li>{{$i}}{{$v}}</li>
+    {{end}}
+</ul>
+{{else}}
+<p>list empty</p>
+{{end}}
